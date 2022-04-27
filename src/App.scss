@@ -1,0 +1,36 @@
+.app {
+  height: 100vh;
+  background: #333;
+}
+
+.search-bar {
+  width: 100%;
+
+  padding: 7px 15px;
+  border-radius: 999px;
+
+  outline: none;
+  border: none;
+
+  background: #797979;
+  color: #2a2a2a;
+
+  &::placeholder {
+    color: #2a2a2a;
+  }
+}
+
+.item-card {
+  border-radius: 12px;
+  background: #888888;
+  margin-bottom: 12px;
+
+  .title {
+    font-weight: 700;
+    font-size: 115%;
+  }
+
+  .category {
+    font-weight: 600;
+  }
+}
