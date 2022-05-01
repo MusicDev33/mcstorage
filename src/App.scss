@@ -1,6 +1,7 @@
 .app {
   height: 100vh;
   background: #333;
+  overflow: auto;
 }
 
 .search-bar {
@@ -33,4 +34,8 @@
   .category {
     font-weight: 600;
   }
+}
+
+::-webkit-scrollbar {
+  display:none;
 }

@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     setCurrentData(data.filter(item => item.item.includes(searchTerm)));
-  })
+  }, [searchTerm]);
 
   return (
     <div className="app">
