@@ -1,3 +1,7 @@
+## MCStorage
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d41f1cbb-2f38-40d6-b67e-46ce85d71b01/deploy-status)](https://app.netlify.com/sites/mc-storage/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
