@@ -24,7 +24,7 @@ function App() {
           <Col sm={6} className="px-4">
             <input className="search-bar" placeholder='Search' value={searchTerm}
               onChange={e => {
-                setSearchTerm(e.target.value);
+                setSearchTerm(e.target.value.toLowerCase());
             }} />
           </Col>
         </Row>
