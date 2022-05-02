@@ -14,7 +14,7 @@ function App() {
   const [currentData, setCurrentData] = useState(data);
 
   useEffect(() => {
-    setCurrentData(data.filter(item => item.item.includes(searchTerm)));
+    setCurrentData(data.filter(item => item.item.includes(searchTerm.toLowerCase())));
   }, [searchTerm]);
 
   return (
@@ -24,7 +24,7 @@ function App() {
           <Col sm={6} className="px-4">
             <input className="search-bar" placeholder='Search' value={searchTerm}
               onChange={e => {
-                setSearchTerm(e.target.value.toLowerCase());
+                setSearchTerm(e.target.value);
             }} />
           </Col>
         </Row>
