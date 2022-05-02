@@ -20,17 +20,17 @@ function App() {
   return (
     <div className="app">
       <Container fluid>
-        <Row className="justify-content-center pt-3">
-          <Col sm={6}>
+        <Row className="justify-content-center pt-2 pb-1 search-container fixed-top">
+          <Col sm={6} className="px-4">
             <input className="search-bar" placeholder='Search' value={searchTerm}
               onChange={e => {
                 setSearchTerm(e.target.value);
             }} />
           </Col>
         </Row>
-        <Row className="mt-3">
+        <Row className="pt-5 mt-3 item-container">
           {currentData.map((item, index) => (
-            <Col sm={3}>
+            <Col sm={6} md={4} lg={3}>
               <ItemCard item={item} key={index} />
             </Col>
           ))}
