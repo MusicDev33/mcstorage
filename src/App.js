@@ -10,11 +10,17 @@ import Col from 'react-bootstrap/Col';
 import { ItemCard } from './ItemCard';
 
 function App() {
+  const max = 4000;
+
   const [searchTerm, setSearchTerm] = useState('');
-  const [currentData, setCurrentData] = useState(data);
+  const [currentData, setCurrentData] = useState(data.slice(0, max));
 
   useEffect(() => {
-    setCurrentData(data.filter(item => item.item.includes(searchTerm.toLowerCase())));
+    if (searchTerm === '') {
+      setCurrentData(data.filter(item => item.item.includes(searchTerm.toLowerCase())).slice(0, max));
+    } else {
+      setCurrentData(data.filter(item => item.item.includes(searchTerm.toLowerCase())));
+    }
   }, [searchTerm]);
 
   return (

@@ -5,7 +5,7 @@ const pod2u = ['brown mushroom', 'red mushroom', 'pointed dripstone', 'ominous b
 const pod2d = ['slime block', 'slimeball', 'honey block', 'honeycomb', 'ender pearl'];
 
 const pod3u = ['prismarine', 'prismarine bricks', 'dark prismarine', 'prismarine shard', 'prismarine crystals'];
-const pod3d = ['crafting bench', 'furnace', 'stonecutter', 'iron trapdoor', 'iron door'];
+const pod3d = ['crafting table', 'furnace', 'stonecutter', 'iron trapdoor', 'iron door'];
 
 const pod4u = ['sea lantern', 'brown dye'];
 const pod4d = ['black dye', 'white dye', 'gray dye', 'light gray dye', 'pink dye'];
