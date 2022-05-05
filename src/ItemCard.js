@@ -16,7 +16,7 @@ export const ItemCard = ({item}) => {
     <div className="item-card">
       <Container className="px-2 py-2">
         <Row>
-          <Col sm={2}>
+          <Col xs={2}>
             <Image fluid src={`/img/${img}.png`} />
           </Col>
           <Col className="ps-0">
