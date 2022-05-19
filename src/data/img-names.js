@@ -1,5 +1,6 @@
 export const imgNames = {
   bonemeal: 'bone_meal',
+  bottle_o_enchanting: 'experience_bottle',
   explody_firework: 'firework_rocket',
   firework_1: 'firework_rocket',
   firework_3: 'firework_rocket',
