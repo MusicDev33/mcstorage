@@ -15,5 +15,6 @@ export const imgNames = {
   tools: 'diamond_pickaxe',
   redstone_repeater: 'repeater',
   redstone_comparator: 'comparator',
-  ominous_banner: 'gray_banner'
+  ominous_banner: 'gray_banner',
+  daylight_sensor: 'daylight_detector'
 }

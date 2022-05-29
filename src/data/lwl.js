@@ -8,7 +8,7 @@ const pod3u = ['granite', 'polished granite', 'diorite', 'polished diorite', 'an
 const pod3d = ['stone stairs', 'stone brick stairs', 'andesite stairs', 'deepslate brick stairs', 'end stone brick stairs'];
 
 const pod4u = ['polished andesite', 'dripstone block', 'cobbled deepslate', 'deepslate bricks', 'chiseled stone bricks'];
-const pod4d = ['cobblestone wall', 'end stone brick wall'];
+const pod4d = ['cobblestone wall', 'stone brick wall', 'deepslate brick wall', 'end stone brick wall'];
 
 const pod5u = ['tuff', 'blackstone', 'polished blackstone bricks', 'cracked polished blackstone bricks', 'terracotta'];
 const pod5d = ['brick', 'bricks', 'deepslate tiles', 'orange terracotta'];
