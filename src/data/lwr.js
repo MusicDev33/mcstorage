@@ -4,7 +4,7 @@ const pod1d = ['redstone repeater', 'redstone comparator', 'redstone torch', 're
 const pod2u = ['anvil', 'ice', 'soul torch', 'torch', 'coal'];
 const pod2d = ['dropper', 'dispenser', 'sticky piston', 'piston', 'observer'];
 
-const pod3u = ['quartz block', 'soul lantern', 'lantern'];
+const pod3u = ['quartz block', 'quartz pillar', 'soul lantern', 'lantern'];
 const pod3d = ['scaffolding', 'item frame', 'bucket', 'chest', 'hopper'];
 
 const pod4u = ['magma block', 'basalt', 'nether bricks', 'red nether bricks', 'netherrack'];
