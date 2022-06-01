@@ -8,7 +8,7 @@ const pod3u = ['magma cream', 'blaze powder', 'blaze rod', 'glistering melon sli
 const pod3d = ['nether wart', 'lapis lazuli', 'glass bottle', 'glow ink sac', 'cauldron'];
 
 const pod4u = [];
-const pod4d = [];
+const pod4d = ['calcite'];
 
 const pod5u = [];
 const pod5d = [];
