@@ -7,8 +7,8 @@ const pod2d = ['feather', 'flint', 'arrow', 'paper', 'book'];
 const pod3u = ['magma cream', 'blaze powder', 'blaze rod', 'glistering melon slice', 'golden carrot'];
 const pod3d = ['nether wart', 'lapis lazuli', 'glass bottle', 'glow ink sac', 'cauldron'];
 
-const pod4u = [];
-const pod4d = ['calcite'];
+const pod4u = ['mangrove propagule', 'mangrove slab', 'mangrove stairs', 'mangrove log', 'mangrove planks'];
+const pod4d = ['mangrove roots', 'mud bricks', 'packed mud', 'mud', 'calcite'];
 
 const pod5u = [];
 const pod5d = [];
