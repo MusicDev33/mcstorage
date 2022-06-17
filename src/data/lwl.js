@@ -11,7 +11,7 @@ const pod4u = ['polished andesite', 'dripstone block', 'cobbled deepslate', 'dee
 const pod4d = ['cobblestone wall', 'stone brick wall', 'deepslate brick wall', 'end stone brick wall'];
 
 const pod5u = ['tuff', 'blackstone', 'polished blackstone bricks', 'cracked polished blackstone bricks', 'terracotta'];
-const pod5d = ['brick', 'bricks', 'deepslate tiles', 'orange terracotta'];
+const pod5d = ['brick', 'bricks', 'deepslate tiles'];
 
 export {
   pod1d,

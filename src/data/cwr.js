@@ -10,7 +10,7 @@ const pod3d = ['nether wart', 'lapis lazuli', 'glass bottle', 'glow ink sac', 'c
 const pod4u = ['mangrove propagule', 'mangrove slab', 'mangrove stairs', 'mangrove log', 'mangrove planks'];
 const pod4d = ['mangrove roots', 'mud bricks', 'packed mud', 'mud', 'calcite'];
 
-const pod5u = [];
+const pod5u = ['sculk shrieker', 'sculk sensor', 'sculk catalyst', 'sculk', 'sculk vein'];
 const pod5d = [];
 
 export {
