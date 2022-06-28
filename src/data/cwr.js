@@ -11,7 +11,7 @@ const pod4u = ['mangrove propagule', 'mangrove slab', 'mangrove stairs', 'mangro
 const pod4d = ['mangrove roots', 'mud bricks', 'packed mud', 'mud', 'calcite'];
 
 const pod5u = ['sculk shrieker', 'sculk sensor', 'sculk catalyst', 'sculk', 'sculk vein'];
-const pod5d = [];
+const pod5d = ['pearlescent froglight', 'verdant froglight', 'ochre froglight'];
 
 export {
   pod1d,
